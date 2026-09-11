@@ -1,0 +1,3 @@
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+CHROMA_DB_PATH = "data/chroma_db"

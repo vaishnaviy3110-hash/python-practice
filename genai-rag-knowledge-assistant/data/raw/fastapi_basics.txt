@@ -1,0 +1,25 @@
+FASTAPI BASICS
+
+FastAPI is a Python web framework used for building APIs.
+
+An API, or Application Programming Interface, allows different software components to communicate with each other.
+
+A REST API commonly uses HTTP methods such as GET, POST, PUT, and DELETE.
+
+GET is commonly used to retrieve information.
+
+POST is commonly used to send data to a server or create a new resource.
+
+PUT is commonly used to update an existing resource.
+
+DELETE is commonly used to remove a resource.
+
+FastAPI can receive data from a client and return structured responses.
+
+In an AI application, FastAPI can be used to expose an AI pipeline through an API endpoint.
+
+For example, an application could provide a POST endpoint called /ask. A client could send a question to this endpoint, and the server could return the generated answer.
+
+FastAPI supports automatic API documentation, which makes it useful for developing and testing APIs.
+
+A typical AI application can use FastAPI as the backend layer while the AI logic handles tasks such as retrieval, prompt processing, and response generation.

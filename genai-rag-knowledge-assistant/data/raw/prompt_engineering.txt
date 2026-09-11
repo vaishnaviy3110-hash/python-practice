@@ -1,0 +1,26 @@
+PROMPT ENGINEERING
+
+Prompt engineering is the process of designing instructions that guide a generative AI model to produce useful and appropriate outputs.
+
+A prompt can contain instructions, context, examples, constraints, and the user's request.
+
+Clear instructions can help a model understand what task it needs to perform.
+
+Important prompt engineering techniques include:
+
+1. Giving clear instructions.
+2. Providing relevant context.
+3. Specifying the desired output format.
+4. Setting constraints when necessary.
+5. Providing examples when examples can clarify the task.
+6. Separating instructions from user-provided information.
+
+In a RAG application, prompt engineering is used to tell the language model how to use retrieved context.
+
+For example, a RAG prompt can instruct the model to answer a question using only the supplied context.
+
+A useful RAG prompt should clearly identify the retrieved information and the user's question.
+
+The prompt can also instruct the model to say that the information is unavailable when the retrieved context does not contain an answer.
+
+Prompt engineering is an iterative process. Developers can test different prompts and evaluate the resulting answers to improve the application's performance.

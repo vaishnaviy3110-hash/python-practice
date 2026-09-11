@@ -1,0 +1,29 @@
+RAG BASICS
+
+Retrieval-Augmented Generation, commonly called RAG, is a technique that combines information retrieval with a generative AI model.
+
+A basic RAG system has two major stages: retrieval and generation.
+
+During retrieval, the system searches a knowledge base for information that is relevant to the user's question.
+
+During generation, the retrieved information is provided to a language model as context. The language model then uses that context to generate an answer.
+
+RAG is useful when an application needs to answer questions using a specific collection of information.
+
+A typical RAG pipeline can contain the following steps:
+
+1. Collect documents.
+2. Clean and process the documents.
+3. Split documents into smaller chunks.
+4. Convert the chunks into numerical vector representations called embeddings.
+5. Store the embeddings in a vector database.
+6. Convert the user's question into an embedding.
+7. Search the vector database for relevant chunks.
+8. Provide the retrieved chunks to the language model.
+9. Generate an answer using the retrieved context.
+
+RAG can help an application use information that was not included in the language model's original training data.
+
+A RAG system depends heavily on the quality of its knowledge base and retrieval process. Poor documents, poor chunking, or poor retrieval can result in low-quality answers.
+
+RAG does not guarantee that a language model will always produce a correct answer. The application should use appropriate prompts, retrieval methods, and evaluation techniques to improve reliability.
